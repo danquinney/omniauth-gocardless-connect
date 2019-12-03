@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.glob('{lib}/**/*')
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'omniauth'
-  spec.add_dependency 'omniauth-oauth2'
+  spec.add_dependency 'omniauth', '~> 1.9'
+  spec.add_dependency 'omniauth-oauth2', '~> 1.6'
 end
