@@ -24,6 +24,10 @@ module OmniAuth
           organisation_id: access_token.params['organisation_id']
         }
       end
+
+      def query_string
+        ''
+      end
     end
   end
 end
